@@ -3,7 +3,7 @@ import LoginCss from "./Login.css";
 import { Card, Container, Form, Button } from "react-bootstrap";
 import Logo from "./assets/kriya.PNG";
 import Image1 from "./assets/img1.png";
-import Data from "./Data"
+
 import Dashboard from "./Dashboard"
 
 const Login = () => {
