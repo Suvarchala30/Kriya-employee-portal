@@ -3,7 +3,8 @@ import './App.css';
 import {
   BrowserRouter,
   Routes,
-  Route
+  Route,
+  Navigate
 } from "react-router-dom";
 import Login from "./Components/Login"
 import Dashboard from "./Components/Dashboard"
@@ -28,6 +29,8 @@ function App() {
       <Route path="/queries" element={<Queries />} />
       <Route path="/expenses" element={<Expenses />} />
       <Route path="/poshqueries" element={<PoshQueries />} />
+      <Route path="/dashboard/:id" element={<Dashboard />} />
+      
     </Routes>
     </BrowserRouter>
   );

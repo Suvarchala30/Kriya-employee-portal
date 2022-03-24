@@ -3,21 +3,31 @@ import LoginCss from "./Login.css";
 import { Card, Container, Form, Button } from "react-bootstrap";
 import Logo from "./assets/kriya.PNG";
 import Image1 from "./assets/img1.png";
+import Data from "./Data"
+import { useNavigate } from "react-router-dom";
 
-import Dashboard from "./Dashboard"
 
 const Login = () => {
   const [uname,setusername]=useState('')
   const [upass,setPassword]=useState('')
+  const [error,setError] = useState('')
 
-  
+  let navigate = useNavigate()
+  const userData = Data.filter((user)=>user.username===uname && user.password===upass)[0]
 
   const handleSubmit=(e)=>{
     e.preventDefault()
-    
-    console.log(uname,upass)
-    
-    
+    // console.log(uname,upass)
+    if(userData){
+      // console.log(uname,upass)
+      console.log(userData.id)
+      navigate(`/dashboard/${userData.id}`)
+    }   else{
+        setError('Please enter correct username and password')
+    } 
+    if(uname===""||upass===""){
+      setError('Please fill the details')
+    }
   }
   return (
     <div className="login-page">
@@ -39,7 +49,7 @@ const Login = () => {
                   <Form.Group className="mb-3 inputPassword" controlId="formBasicPassword">
                     <Form.Control type="password" placeholder="Password" onChange={(e)=>setPassword(e.target.value)} value={upass}/>
                   </Form.Group>
-
+                      <div className="error-block">{error}</div>
                   <Button variant="primary" type="submit" className="login-btn mb-3" onClick={handleSubmit}>
                     Login
                   </Button>
