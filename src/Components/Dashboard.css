@@ -1,0 +1,13 @@
+.left-col {
+    background: linear-gradient(orange, lightblue);
+}
+
+.row {
+    height: 100vh;
+    width: 100vw;
+}
+img.page-logo {
+    height: 100px;
+    display: flex;
+    margin: auto;
+}

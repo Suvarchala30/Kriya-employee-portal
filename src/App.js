@@ -15,13 +15,13 @@ import Payslips from './Components/Pages/Payslips';
 import Queries from './Components/Pages/Queries';
 import Expenses from './Components/Pages/Expenses';
 import PoshQueries from './Components/Pages/Posh-queries';
+import Error from './Components/Pages/Errorpage';
 
 function App() {
   return (
     <BrowserRouter>
     <Routes>
       <Route path="/" element={<Login />} />
-      <Route path="/dashboard" element={<Dashboard />} />
       <Route path="/profile" element={<EmployeeProfile />} />
       <Route path="/leave" element={<Leave />} />
       <Route path="/documents" element={<Documents />} />
@@ -30,6 +30,7 @@ function App() {
       <Route path="/expenses" element={<Expenses />} />
       <Route path="/poshqueries" element={<PoshQueries />} />
       <Route path="/dashboard/:id" element={<Dashboard />} />
+      <Route path="*" element={<Error />} />
       
     </Routes>
     </BrowserRouter>
