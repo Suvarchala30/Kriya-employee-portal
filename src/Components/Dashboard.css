@@ -1,8 +1,9 @@
 .left-col {
-    background: linear-gradient(orange, lightblue);
+    /* background: linear-gradient( lightblue,orange,lightblue,orange); */
+    background: linear-gradient( #f43b48, #453a94);
 }
 
-.row {
+.page-row {
     height: 100vh;
     width: 100vw;
 }
@@ -10,4 +11,48 @@ img.page-logo {
     height: 100px;
     display: flex;
     margin: auto;
+}
+hr {
+    color: white;
+}
+
+h5.name {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+.page-section {
+    padding: 0 8px;
+}
+
+h5.menu-tab {
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media screen and (min-width:200px) and (max-width:569px){
+    img.page-logo {
+        height: 50px;
+        width: 50px;
+    }
+    h5.name {
+        color: white;
+        font-size: 9px;
+        padding: 0 2px;
+        font-weight: bold;
+        text-align: center;
+    }
+    h5.menu-tab {
+        color: white;
+        font-size: 12px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        text-align: center;
+        margin-top: 20px;
+    }
 }

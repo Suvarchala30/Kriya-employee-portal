@@ -13,8 +13,6 @@ import Leave from './Components/Pages/Leave';
 import Documents from './Components/Pages/Documents';
 import Payslips from './Components/Pages/Payslips';
 import Queries from './Components/Pages/Queries';
-import Expenses from './Components/Pages/Expenses';
-import PoshQueries from './Components/Pages/Posh-queries';
 import Error from './Components/Pages/Errorpage';
 
 function App() {
@@ -27,8 +25,6 @@ function App() {
       <Route path="/documents" element={<Documents />} />
       <Route path="/payslips" element={<Payslips />} />
       <Route path="/queries" element={<Queries />} />
-      <Route path="/expenses" element={<Expenses />} />
-      <Route path="/poshqueries" element={<PoshQueries />} />
       <Route path="/dashboard/:id" element={<Dashboard />} />
       <Route path="*" element={<Error />} />
       
