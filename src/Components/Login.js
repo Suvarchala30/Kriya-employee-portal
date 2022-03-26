@@ -64,6 +64,17 @@ const Login = () => {
           <div className="footer"></div>
         </Card>
       </Container>
+      <div className="credentials">
+        <p className="userpass">
+          Try any one of these credentials to Login
+          <ul>
+            <li>User1,Password1</li>
+            <li>User2,Password2</li>
+            <li>User3,Password3</li>
+            <li>User4,Password4</li>
+          </ul>
+        </p>
+      </div>
     </div>
   );
 };
