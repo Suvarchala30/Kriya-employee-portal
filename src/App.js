@@ -14,6 +14,7 @@ import Documents from './Components/Pages/Documents';
 import Payslips from './Components/Pages/Payslips';
 import Queries from './Components/Pages/Queries';
 import Error from './Components/Pages/Errorpage';
+import AdharPDF from "./Components/assets/adharPDF.pdf"
 
 function App() {
   return (
@@ -27,6 +28,12 @@ function App() {
       <Route path="/queries" element={<Queries />} />
       <Route path="/dashboard/:id" element={<Dashboard />} />
       <Route path="*" element={<Error />} />
+      <Route path="/profile/:id" element={<EmployeeProfile />} />
+      <Route path="/leave/:id" element={<Leave />} />
+      <Route path="/documents/:id" element={<Documents />} />
+      <Route path="/payslips/:id" element={<Payslips />} />
+      <Route path="/queries/:id" element={<Queries />} />
+      <Route path="/adhar" element={<AdharPDF />} />
       
     </Routes>
     </BrowserRouter>

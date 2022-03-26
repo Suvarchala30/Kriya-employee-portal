@@ -4,8 +4,20 @@ const Userdata = [
         username: 'User1',
         password: 'Password1',
         name:'Suvarchala',
-        company: 'Amazon',
-        doj:'20/7/2020'
+        company: 'Walmart',
+        doj:'20/7/2020',
+        mobile:'7897897890',
+        email:'suvarchala@gmail.com',
+        address:'A-01, A Wing, Homtown , ABC, Navi Mumbai - 80 ',
+        DOB:'15/9/1997',
+        bloodgroup:'B+',
+        Gender:'Female',
+        bankname:'ICICI',
+        accountnum:'9045823509',
+        IFSC:'hhik67543',
+        branch:'Mumbai',
+        adharnum:'4567890347',
+        pannum:'AGH785634'
     },
     {
         id:2,
@@ -13,7 +25,19 @@ const Userdata = [
         password: 'Password2',
         name:'Niharika',
         company: 'Google',
-        doj:'10/5/2021'
+        doj:'10/5/2021',
+        mobile:'9897897890',
+        email:'niharika@gmail.com',
+        address:'A-01, A Wing, Homtown , ABC, Navi Mumbai - 80 ',
+        DOB:'05/02/1996',
+        bloodgroup:'O+',
+        Gender:'Female',
+        bankname:'ICICI',
+        accountnum:'9045823509',
+        IFSC:'hhik67543',
+        branch:'Mumbai',
+        adharnum:'4567890347',
+        pannum:'AGH785634'
     },
     {
         id:3,
@@ -21,7 +45,19 @@ const Userdata = [
         password: 'Password3',
         name:'Sumanth',
         company: 'Microsoft',
-        doj:'29/7/2019'
+        doj:'29/7/2019',
+        mobile:'7899997890',
+        email:'sumanth@gmail.com',
+        address:'A-01, A Wing, Homtown , ABC, Navi Mumbai - 80 ',
+        DOB:'09/6/1998',
+        bloodgroup:'A+',
+        Gender:'Female',
+        bankname:'ICICI',
+        accountnum:'9045823509',
+        IFSC:'hhik67543',
+        branch:'Mumbai',
+        adharnum:'4567890347',
+        pannum:'AGH785634'
     },
     {
         id:4,
@@ -29,7 +65,19 @@ const Userdata = [
         password: 'Password4',
         name:'Vaidhik',
         company: 'Amazon',
-        doj:'06/9/2021'
+        doj:'06/9/2021',
+        mobile:'9007897890',
+        email:'vaidhik@gmail.com',
+        address:'A-01, A Wing, Homtown , ABC, Navi Mumbai - 80 ',
+        DOB:'30/9/1998',
+        bloodgroup:'B-',
+        Gender:'Female',
+        bankname:'ICICI',
+        accountnum:'9045823509',
+        IFSC:'hhik67543',
+        branch:'Mumbai',
+        adharnum:'4567890347',
+        pannum:'AGH785634'
     },
 ]
 
