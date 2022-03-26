@@ -21,7 +21,7 @@ const Login = () => {
     // console.log(uname,upass)
     if(userData){
       // console.log(uname,upass)
-      console.log(userData.id)
+      //console.log(userData.id)
       navigate(`/dashboard/${userData.id}`)
     }   else{
         setError('Please enter correct username and password')
