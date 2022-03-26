@@ -57,7 +57,7 @@ const Login = () => {
                 </Form>
                 <hr />
                 <h6 className="help">Facing Login Issue?</h6>
-                <h6 className="dial">Connect with us at: 9090909090 | contact@kriyakreations.com </h6>
+                <h6 className="dial">Connect with us at: 9090909090 | contact@employeeportal.com </h6>
               </Container>
             </div>
           </div>
